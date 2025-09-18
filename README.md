@@ -1,4 +1,3 @@
-# 👋 Hi, I'm Motaz  
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F72A&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub!;42+Amman+Student;C+%26+C%2B%2B+Developer;Linux+Server+Administrator;Always+Learning+🚀)](https://git.io/typing-svg)  
 
