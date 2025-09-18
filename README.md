@@ -4,12 +4,10 @@
 
 ---
 
-## 🚀 About Me
-- ✅ Completed **libft**, **ft_printf**, **get_next_line**, **born2beroot**  
+## 🚀 About Me 
 - 🔧 Skills in **C, C++ and Java**  
 - 🐧 Experienced with **Linux & server administration**  
 - 📚 Always learning and building cool stuff  
-
 ---
 
 ## 🛠️ Tech Stack
@@ -35,11 +33,12 @@
 
 ## 🌍 Connect
 - 📧 motasjamal247@gmail.com
-- 
 ---
 
+<img src="https://media.giphy.com/media/kbRb4eyCNC0aMz5x68/giphy.gif" width="300"/>
+
+---
 ⭐️ From [Motaz9999](https://github.com/Motaz9999)
-## Hi there 👋
 
 <!--
 **Motaz9999/Motaz9999** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
