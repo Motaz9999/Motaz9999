@@ -35,9 +35,6 @@
 - 📧 motasjamal247@gmail.com
 ---
 
-![42 Profile Badge](https://badge.mediaplus.ma/darkblue/motaz9999)
-
----
 ⭐️ From [Motaz9999](https://github.com/Motaz9999)
 
 <!--
