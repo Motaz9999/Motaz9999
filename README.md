@@ -23,8 +23,9 @@ I'm a systems programming developer studying at **42 Amman**, with a strong focu
 - 🐧 Experienced with **Linux system calls**, process management, and IPC
 - 📊 Strong grasp of **algorithms, data structures, and optimization**
 - 🎮 Explored **graphics programming** using MiniLibX
+- 🧵 Experienced in **multithreading, mutexes, and deadlock prevention**
 - 🧠 Committed to **clean code, proper error handling, and memory safety**
-- 🌱 Currently working toward: **Minishell**, **Philosophers**, and **network programming**
+- 🌱 Currently working toward: **Minishell** and **network programming**
 
 ---
 
@@ -32,6 +33,7 @@ I'm a systems programming developer studying at **42 Amman**, with a strong focu
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [**Philosophers**](https://github.com/Motaz9999/Philosophers) | Simulates the Dining Philosophers problem using threads and mutexes. Implements precise timing, death detection, and starvation prevention with no data races. | C · Threads · Mutex · Concurrency |
 | [**Push_swap**](https://github.com/Motaz9999/Push_swap) | Efficient stack-based sorting using Radix Sort with index normalization. Achieves <700 ops for 100 numbers. | C · Algorithms · Bit Manipulation |
 | [**Pipex**](https://github.com/Motaz9999/Pipex) | Replicates Unix shell pipe behavior using `fork`, `pipe`, and `execve`. Full PATH resolution and error handling. | C · Unix · IPC · Process Management |
 | [**So_long**](https://github.com/Motaz9999/So_long) | 2D game built from scratch with MiniLibX. Includes map parsing, event handling, and win/lose conditions. | C · MiniLibX · Graphics · Events |
@@ -67,10 +69,11 @@ I'm a systems programming developer studying at **42 Amman**, with a strong focu
 ### Competencies
 ```text
 System Programming    │ Process management, IPC, file systems, syscalls
+Concurrency           │ POSIX threads, mutexes, race condition prevention, deadlock handling
 Algorithm Design      │ Sorting, optimization, complexity analysis
 Memory Management     │ Manual allocation, leak prevention, Valgrind
 Data Structures       │ Linked lists, stacks, trees, custom implementations
-Debugging             │ GDB, Valgrind, systematic root-cause analysis
+Debugging             │ GDB, Valgrind, Helgrind, systematic root-cause analysis
 Graphics              │ MiniLibX, sprite rendering, event-driven programming
 ```
 
@@ -103,11 +106,11 @@ Graphics              │ MiniLibX, sprite rendering, event-driven programming
 | ✅ Push_swap | Algorithm design, radix sort, bit manipulation |
 | ✅ So_long | Graphics, event handling, map validation |
 | ✅ Pipex | Process management, IPC, Unix system calls |
+| ✅ Philosophers | POSIX threads, mutexes, deadlock prevention, race condition handling, precise timing |
 
 </details>
 
 **Up Next:**
-- 🧵 **Philosophers** — multithreading, mutex, deadlock prevention
 - 🐚 **Minishell** — building a POSIX-compliant shell
 - 🌐 **Network programming** — sockets, protocols
 
@@ -140,7 +143,7 @@ graph LR
     B --> C[Push_swap]
     C --> D[So_long]
     D --> E[Pipex]
-    E --> F[Philosophers 🔄]
+    E --> F[Philosophers ✅]
     F --> G[Minishell 🔄]
     G --> H[Networking ...]
 ```
