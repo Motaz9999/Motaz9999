@@ -25,7 +25,7 @@ I'm a systems programming developer studying at **42 Amman**, with a strong focu
 - 🎮 Explored **graphics programming** using MiniLibX
 - 🧵 Experienced in **multithreading, mutexes, and deadlock prevention**
 - 🧠 Committed to **clean code, proper error handling, and memory safety**
-- 🌱 Currently working toward: **Minishell** and **network programming**
+- 🌱 Currently working toward: **C++ Modules (OOP)**, **Cub3D (Raycasting)**, and **Network programming**
 
 ---
 
@@ -33,10 +33,20 @@ I'm a systems programming developer studying at **42 Amman**, with a strong focu
 
 | Project | Description | Tech |
 |--------|-------------|------|
+| [**Minishell**](https://github.com/Motaz9999/Minishell) | A fully functional custom Bash-like shell. Implements lexical analysis, tokenization, pipes, redirections, signals, and built-ins. | C · Parsing · Processes · Signals |
 | [**Philosophers**](https://github.com/Motaz9999/Philosophers) | Simulates the Dining Philosophers problem using threads and mutexes. Implements precise timing, death detection, and starvation prevention with no data races. | C · Threads · Mutex · Concurrency |
 | [**Push_swap**](https://github.com/Motaz9999/Push_swap) | Efficient stack-based sorting using Radix Sort with index normalization. Achieves <700 ops for 100 numbers. | C · Algorithms · Bit Manipulation |
 | [**Pipex**](https://github.com/Motaz9999/Pipex) | Replicates Unix shell pipe behavior using `fork`, `pipe`, and `execve`. Full PATH resolution and error handling. | C · Unix · IPC · Process Management |
 | [**So_long**](https://github.com/Motaz9999/So_long) | 2D game built from scratch with MiniLibX. Includes map parsing, event handling, and win/lose conditions. | C · MiniLibX · Graphics · Events |
+
+---
+
+## 🧠 Key Learnings: Philosophers & Minishell
+
+These two projects were massive milestones in my kernel & system programming journey:
+
+- **Philosophers**: Mastered concurrency and thread synchronization. Overcame race conditions, handled deadlocks by managing mutex ordering, and learned how to optimize CPU time using precise delays. It shifted my mindset towards strict memory tracking and ensuring threads communicate flawlessly without data corruption.
+- **Minishell**: Deep dive into how a shell actually operates. I learned how to tokenize raw input, parse it into structured command tables/linked lists, manage complex file descriptor routing for pipes/redirections, and orchestrate multiple child processes while safely intercepting Linux signals (SIGINT, SIGQUIT) without crashing or leaking memory.
 
 ---
 
@@ -107,12 +117,14 @@ Graphics              │ MiniLibX, sprite rendering, event-driven programming
 | ✅ So_long | Graphics, event handling, map validation |
 | ✅ Pipex | Process management, IPC, Unix system calls |
 | ✅ Philosophers | POSIX threads, mutexes, deadlock prevention, race condition handling, precise timing |
+| ✅ Minishell | Lexical analysis, command tokenization, pipeline execution, signal handling, I/O multiplexing |
 
 </details>
 
 **Up Next:**
-- 🐚 **Minishell** — building a POSIX-compliant shell
-- 🌐 **Network programming** — sockets, protocols
+- 🧱 **Cub3D** — creating a 3D game engine using raycasting
+- 🚀 **C++ Modules** — mastering Object-Oriented Programming and C++ 98
+- 🌐 **NetPractice** — understanding TCP/IP, routing, and subnets
 
 ---
 
@@ -144,15 +156,14 @@ graph LR
     C --> D[So_long]
     D --> E[Pipex]
     E --> F[Philosophers ✅]
-    F --> G[Minishell 🔄]
-    G --> H[Networking ...]
+    F --> G[Minishell ✅]
+    G --> H[Cub3D / C++ 🔄]
+    H --> I[Networking ...]
 ```
 
 ---
 
 <div align="center">
-
-*"First, solve the problem. Then, write the code."* — John Johnson
 
 [![42 Badge](https://img.shields.io/badge/42-Amman-000000?style=for-the-badge&logo=42&logoColor=white)](https://42.fr/)
 
