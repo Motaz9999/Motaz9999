@@ -45,16 +45,19 @@ Systems programming developer at **42 Amman** focused on C/C++, Unix internals, 
 | [**Get_next_line**](https://github.com/Motaz9999/Get_next_line) | File I/O | Line-by-line reading from file descriptors. | C · I/O |
 | [**Printf**](https://github.com/Motaz9999/Printf) | Core Library | Custom `printf` implementation with format parsing. | C · Variadic Args |
 
-## 🖼️ Main Project Cards
+## ✨ Project Highlights
+
+| Focus | Project |
+|------|---------|
+| 3D Graphics | [Cub3D](https://github.com/Motaz9999/Cub3D) |
+| Shell & Processes | [minishell](https://github.com/Motaz9999/minishell) |
+| Concurrency | [philosophers](https://github.com/Motaz9999/philosophers) |
+| Algorithms | [Push_swap](https://github.com/Motaz9999/Push_swap) |
 
 <div align="center">
-  <a href="https://github.com/Motaz9999/Cub3D"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Motaz9999&repo=Cub3D&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/></a>
-  <a href="https://github.com/Motaz9999/minishell"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Motaz9999&repo=minishell&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/></a>
-</div>
-
-<div align="center">
-  <a href="https://github.com/Motaz9999/philosophers"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Motaz9999&repo=philosophers&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/></a>
-  <a href="https://github.com/Motaz9999/Push_swap"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Motaz9999&repo=Push_swap&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/></a>
+  <img src="https://img.shields.io/badge/Core-C%20%2F%20Unix-0A66C2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Graphics-MiniLibX-F97316?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Focus-Clean%20Architecture-14B8A6?style=flat-square"/>
 </div>
 
 ---
